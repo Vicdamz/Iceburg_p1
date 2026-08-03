@@ -10,7 +10,7 @@ def countdown(seconds):
         # Print time on the same line to create an update effect
         print(timer_format, end="\r")
         time.sleep(1)
-        seconds -= 1
+        seconds -= 2
         
     print("\n⏰ Time's up!")
 
